@@ -1,0 +1,92 @@
+
+
+.Weather-App {
+    font-family: Arial, sans-serif;
+    width: 50vw;
+    height: 30vh;
+  
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #e12222;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+
+  
+  .enter-button:hover {
+    background-color: #2a488e;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    width: 30%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    right: 20px;
+    
+   
+   
+
+    
+   
+  }
+  
+  .city-name {
+    text-align: center;
+    color: #333;
+    
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .temp {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .coordinates {
+    text-align: center;
+    color: #666;
+  }
+  
+
+  .enter-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #106213;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+
+  }
+  
